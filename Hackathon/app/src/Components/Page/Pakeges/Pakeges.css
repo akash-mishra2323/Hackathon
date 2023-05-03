@@ -1,0 +1,22 @@
+.container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 430px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 8px 5px #888888; */
+    
+    box-shadow: 0 0 5px 10px rgb(214, 206, 206);
+    cursor: pointer;
+    
+}

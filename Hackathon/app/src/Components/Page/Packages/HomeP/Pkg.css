@@ -1,0 +1,23 @@
+.Mainpkg{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+}
+.pkg1{
+    height: 190px;
+    width: 290px;
+    margin: 20px;
+}
+@media screen and (max-width:769px){
+    .pkg1{
+        height: 190px;
+        width: 290px;
+        margin: 20px;
+        margin-top: 180px;
+    }
+
+}

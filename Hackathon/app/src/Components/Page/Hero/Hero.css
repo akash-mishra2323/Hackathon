@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Conatiner{
+    height: 450px;
+    width: 100%;
+
+    background-image: url("https://images.freeimages.com/slides/5210959.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 200px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.image h1{
+    font-size: 70px;
+    color: rgb(48, 51, 187);
+    text-shadow: 4px 4px #e6e922;
+    
+}
+.image h3{
+ color: rgb(99, 214, 32);
+ font-weight: bolder;
+ text-shadow: 2px 2px #000000;
+
+
+}
+
+@media screen and (max-width:769px){
+    .image img{
+        height: 150px;
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+    .image h1{
+        font-size: 50px;
+        color: rgb(0, 247, 255);
+        text-shadow: 4px 4px #e6e922;
+        
+    }
+      
+}
